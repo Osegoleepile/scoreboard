@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color:blue ;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    padding: 20px;
+    }
+.team{
+    
+}
+#home, #guest{
+    background-color: black;
+}

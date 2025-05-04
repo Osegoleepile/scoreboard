@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="team">
+                <h3>HOME</h3>
+                <h2 id="home">0</h2>
+                <button onclick="ScoreBoard('A',1 )">+1</button>
+                <button onclick="ScoreBoard('A',2 )">+2</button>
+                <button onclick="ScoreBoard('A',3 )">+3</button>
+            </div>
+            <div class="team">
+                <h3>GUEST</h3>
+                <h2 id="guest">0</h2> 
+                <button onclick="ScoreBoard('B',1 )" >+1</button>
+                <button onclick="ScoreBoard('B',2 )">+2</button>
+                <button onclick="ScoreBoard('B',3 )">+3</button> 
+            </div>
+        </div>
+        <div>
+                <button onclick="resetbutton()">Reset</button>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
